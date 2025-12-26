@@ -1,0 +1,43 @@
+.container1 {
+  padding: 20px 55px;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    padding: 30px 6px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container1 {
+    padding: 0px 6px;
+  }
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-left {
+  animation: marquee-left 10s linear infinite;
+}
+
+.animate-marquee-right {
+  animation: marquee-right 10s linear infinite;
+}

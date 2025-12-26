@@ -1,0 +1,20 @@
+.transition-opacity {
+    transition: opacity 0.7s ease-in-out;
+}
+
+/* Optional better responsiveness */
+.testimonial-container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+@media (max-width: 767px) {
+    .testimonial-container {
+        height: auto;
+    }
+
+    .testimonial-container .shadow-md {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,159 @@
+body {
+  width: 100%;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+.blocks-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+.row {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+
+.block {
+  position: relative;
+  flex: 1;
+  background: rgb(237, 236, 236);
+  margin: -0.25px;
+}
+
+.transition-in .blocks-container {
+  transform-origin: left;
+}
+
+.transition-out .blocks-container {
+  transform-origin: right;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.popup button {
+  margin-top: 10px;
+}
+
+/* global.css */
+@keyframes crossfade {
+  0% {
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  /* quick fade in */
+  30% {
+    opacity: 1;
+  }
+
+  /* hold */
+  35% {
+    opacity: 0;
+  }
+
+  /* fade out */
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-slide {
+  animation: crossfade 6s infinite ease-in-out;
+  will-change: opacity;
+}
+
+.fade-delay-0 {
+  animation-delay: 0s;
+}
+
+.fade-delay-2 {
+  animation-delay: 2s;
+}
+
+/* 6s / 3 = 2s per image */
+.fade-delay-4 {
+  animation-delay: 4s;
+}
+
+@keyframes fade1 {
+
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade2 {
+
+  0%,
+  45% {
+    opacity: 0;
+  }
+
+  50%,
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-fade1 {
+  animation: fade1 6s infinite;
+}
+
+.animate-fade2 {
+  animation: fade2 6s infinite;
+}
+.seo-hidden-h1 {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}

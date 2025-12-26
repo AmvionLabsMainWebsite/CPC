@@ -1,0 +1,312 @@
+{
+    "turbochem-optima": {
+        "name": "Turbochem Optima - Fully Automatic Biochemistry Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/Turbochem%20optima-DpidsgNZ.png",
+        "description": "TURBOCHEM OPTIMA offers precision, speed, and reliability in biochemical analysis. An ideal fully automatic biochemistry analyzer for diagnostic labs.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "200"
+        }
+    },
+    "turbostat-plus": {
+        "name": "Turbostat plus - Semi Automatic Biochemistry Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/plus1-Dpa2iBBO.png",
+        "description": "TURBOSTAT PLUS semi automatic biochemistry analyzer delivers reliable and efficient clinical chemistry results for laboratories of all sizes",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "150"
+        }
+    },
+    "jokoh-ex-d": {
+        "name": "JOKOH Ex-D Electrolyte Analyzer With Auto Loader",
+        "image": "https://cpcdiagnostics.in/assets/Jokoh%20Ex-D-CsuSpaHX.webp",
+        "description": "JOKOH Ex-D Electrolyte Analyzer with Auto Loader delivers rapid and accurate electrolyte testing with smart automation for laboratories.",
+        "brand": "JOKOH",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "124"
+        }
+    },
+    "jokoh-ex-ds": {
+        "name": "JOKOH Ex-Ds Electrolyte Analyzer Without Auto Loader",
+        "image": "https://cpcdiagnostics.in/assets/Jokoh%20Ex-Ds-BOv2i3iL.webp",
+        "description": "JOKOH Ex-Ds Electrolyte Analyzer without Auto Loader delivers rapid and accurate electrolyte testing with smart automation for laboratories.",
+        "brand": "JOKOH",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "243"
+        }
+    },
+    "dynacount-3d-plus": {
+        "name": "DYNACOUNT 3D PLUS- 3 Part CBC Machine",
+        "image": "https://cpcdiagnostics.in/assets/Dynacount%203D%20Plus-BFuhHW6u.webp",
+        "description": "DYNACOUNT 3D PLUS, a 3-part CBC machine offering precise hematology analysis with advanced technology for reliable diagnostic performance.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "4.5",
+            "ratingCount": "213"
+        }
+    },
+    "dynacount-5d-pro": {
+        "name": "Dynacount 5D PRO - 5 part cbc machine",
+        "image": "https://cpcdiagnostics.in/assets/Dynacount%205D%20PRO-DNHkiv-4.png",
+        "description": "DYNACOUNT 5D PRO is a 5-part CBC analyzer engineered for speed, accuracy, and efficiency in hematology diagnostics for clinical laboratories.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "4.5",
+            "ratingCount": "278"
+        }
+    },
+    "dynacount-5d-elite": {
+        "name": "DYNACOUNT 5D ELITE - 5 Part CBC Machine",
+        "image": "https://cpcdiagnostics.in/assets/Dynacount%205D%20Elite-Uq3VAvzy.png",
+        "description": "DYNACOUNT 5D ELITE provides advanced hematology testing with 5-part differential results, ensuring reliable and high-throughput lab performance.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "4.5",
+            "ratingCount": "278"
+        }
+    },
+    "vision-pro": {
+        "name": "VISION Pro Automated ESR Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/vision-C5FrrQW9.webp",
+        "description": "VISION Pro Automated ESR Analyzer ensures fast, accurate erythrocyte sedimentation rate testing for modern laboratories and diagnostic centers.",
+        "brand": "YHLO",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "277"
+        }
+    },
+    "sedrate-pro": {
+        "name": "SEDRATE PRO Automated ESR Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-DeBTS6Yz.png",
+        "description": "SEDRATE PRO Automated ESR Analyzer delivers precision and consistency in ESR testing, ideal for routine clinical laboratory diagnostics.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "327"
+        }
+    },
+    "ichroma-3": {
+        "name": "ichroma™ III Advanced Compact POCT Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-6UspYJev.webp",
+        "description": "Boditech ichroma™ III is a compact POCT analyzer offering rapid and accurate testing across various clinical parameters for healthcare professionals.",
+        "brand": "Boditech",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "288"
+        }
+    },
+    "ichroma-2": {
+        "name": "ichroma™ II Advanced Point of Care Testing",
+        "image": "https://cpcdiagnostics.in/assets/product1-BC3nZAnh.webp",
+        "description": "Boditech ichroma™ II is an advanced point-of-care testing analyzer designed for quick, precise, and reliable diagnostic results in clinical settings.",
+        "brand": "Boditech",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "345"
+        }
+    },
+    "labscan-3d": {
+        "name": "LABScan 3D Advanced IVD System - FLEXMAP 3D",
+        "image": "https://cpcdiagnostics.in/assets/Labscan%203D-BRkHrVfr.webp",
+        "description": "Luminex LABScan 3D is an advanced IVD system offering flexible multiplexing and precise diagnostic performance for molecular laboratories.",
+        "brand": "Onelambda",
+        "aggregateRating": {
+            "ratingValue": "4.8",
+            "ratingCount": "135"
+        }
+    },
+    "labscan-100": {
+        "name": "Luminex LABScan 100 Flexible Multiplexing Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/Labscan%20100-D06QDEWR.webp",
+        "description": "One Lambda LABScan 100 delivers accurate and flexible multiplexing analysis with high sensitivity, ideal for clinical and research diagnostics.",
+        "brand": "Onelambda",
+        "aggregateRating": {
+            "ratingValue": "4.8",
+            "ratingCount": "321"
+        }
+    },
+    "plexmat-4": {
+        "name": "PlexMAT-4 Immunoblot Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-CKoOuM7g.webp",
+        "description": "PlexMAT-4 Immunoblot Analyzer offers high-quality automated western blot processing for consistent and efficient immunoblot testing.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "4.7",
+            "ratingCount": "248"
+        }
+    },
+    "plexmat-8": {
+        "name": "PlexMAT-8 Immunoblot Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/PlexMAT8-QZJ14goH.webp",
+        "description": "PlexMAT-8 Immunoblot Analyzer offers high-quality automated western blot processing for consistent and efficient immunoblot testing.",
+        "brand": "Everlife CPC",
+        "aggregateRating": {
+            "ratingValue": "4.3",
+            "ratingCount": "178"
+        }
+    },
+    "iflash-3000": {
+        "name": "iFlash 3000 Chemiluminescence Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-C00_txmp.webp",
+        "description": "iFlash 3000 Chemiluminescence Immunoassay Analyzer ensures accurate, high-throughput testing with advanced automation for reliable diagnostics.",
+        "brand": "YHLO",
+        "aggregateRating": {
+            "ratingValue": "4",
+            "ratingCount": "376"
+        }
+    },
+    "iflash-1800": {
+        "name": "iFlash 3000 Chemiluminescence Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-Cwvy2ut4.webp",
+        "description": "YHLO iFlash 1800 is an advanced chemiluminescence immunoassay analyzer offering precision, speed, and consistency for clinical laboratories.",
+        "brand": "YHLO",
+        "aggregateRating": {
+            "ratingValue": "4.7",
+            "ratingCount": "317"
+        }
+    },
+    "iflash-1200": {
+        "name": "YHLO iFlash 1200 Chemiluminescence Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-ayWRCR2x.png",
+        "description": "YHLO iFlash 1200 Chemiluminescence Immunoassay Analyzer delivers compact, efficient, and reliable testing for routine diagnostic applications.",
+        "brand": "YHLO",
+        "aggregateRating": {
+            "ratingValue": "4.4",
+            "ratingCount": "467"
+        }
+    },
+    "afias-1": {
+        "name": "AFIAS -1 Automated Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/AFIAS%202-upsC3EVV.png",
+        "description": "Boditech AFIAS-1 Analyzer is a compact automated immunoassay system providing quick and accurate point-of-care diagnostics.",
+        "brand": "Boditech",
+        "aggregateRating": {
+            "ratingValue": "4.4",
+            "ratingCount": "157"
+        }
+    },
+    "afias-3": {
+        "name": "AFIAS -3 Automated Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/AFIAS%203-2-CAAfL3lf.png",
+        "description": "Boditech AFIAS-3 Analyzer performs rapid and precise immunoassay testing with high efficiency and automation for diagnostic labs.",
+        "brand": "Boditech",
+        "aggregateRating": {
+            "ratingValue": "4.6",
+            "ratingCount": "237"
+        }
+    },
+    "afias-6": {
+        "name": "AFIAS -6 Automated Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/AFIAS%206-2-ByhePOJk.png",
+        "description": "AFIAS-6 Analyzer offers enhanced throughput and automation for simultaneous immunoassay testing with proven reliability.",
+        "brand": "Boditech",
+        "aggregateRating": {
+            "ratingValue": "4.8",
+            "ratingCount": "467"
+        }
+    },
+    "afias-10": {
+        "name": "AFIAS -10 Automated Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/AFIAS%2010-1-D2Zfu7Em.png",
+        "description": "AFIAS-10 Analyzer delivers high-volume, fully automated immunoassay testing with accuracy and efficiency for modern labs.",
+        "brand": "Boditech",
+        "aggregateRating": {
+            "ratingValue": "4.9",
+            "ratingCount": "339"
+        }
+    },
+    "kryptor-compact-plus": {
+        "name": "B·R·A·H·M·S KRYPTOR compact PLUS - Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-BdYVsIlr.webp",
+        "description": "Thermo Fisher Scientific B·R·A·H·M·S KRYPTOR compact PLUS Analyzer offers fast and precise immunoassay results using advanced TRACE technology.",
+        "brand": "Thermo Fisher",
+        "aggregateRating": {
+            "ratingValue": "5",
+            "ratingCount": "412"
+        }
+    },
+    "euroimmun-i-2p": {
+        "name": "EUROIMMUN Analyzer I-2P Fully Automated ELISA Processing Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-BOP0qeDg.webp",
+        "description": "EUROIMMUN Analyzer I-2P Fully Automated ELISA Analyzer enhances testing accuracy and throughput with intelligent automation for clinical immunoassays.",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.5",
+            "ratingCount": "278"
+        }
+    },
+    "euroimmun-i": {
+        "name": "EUROIMMUN Analyzer I Fully Automated ELISA Processing Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-BOP0qeDg.webp",
+        "description": "EUROIMMUN Analyzer I Fully Automated ELISA Analyzer enhances testing accuracy and throughput with intelligent automation for clinical immunoassays.",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.0",
+            "ratingCount": "312"
+        }
+    },
+    "euroblotone": {
+        "name": "EUROBlotOne - Fully Automated Immunoblot Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-C0RQ820i.webp",
+        "description": "EUROBlotOne Fully Automated immunoassay analyzer streamlines blotting workflows, providing fast and reliable immunoassay analysis.",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.6",
+            "ratingCount": "578"
+        }
+    },
+    "if-sprinter": {
+        "name": "Fully Automatic IF Sprinter EUROIMMUN Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-D8roKGHo.webp",
+        "description": "Fully automated IF Sprinter Analyzer performs precise immunofluorescence testing and IFT/ELISA tests in one instrument",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.7",
+            "ratingCount": "418"
+        }
+    },
+    "eutostar-iii-plus": {
+        "name": "EUROStar III Plus Immunofluorescence Assay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-CRfcdK3E.webp",
+        "description": "EUROStar III Plus Automated IFA Analyzer offers high-accuracy immunofluorescence testing with easy operation and fast result processing.",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.4",
+            "ratingCount": "338"
+        }
+    },
+    "europattern-microscope": {
+        "name": "EUROPattern Microscope Automated Immunofluorescence Microscopy",
+        "image": "https://cpcdiagnostics.in/assets/product1-Bvzq45Bt.webp",
+        "description": "EUROPattern Microscope enables automated immunofluorescence microscopy with advanced image capture and supported pattern recognition.",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.8",
+            "ratingCount": "266"
+        }
+    },
+    "fluoromat-50": {
+        "name": "FluoroMAT 50 Immunofluorescence Assay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/product1-ZL61LgQF.webp",
+        "description": "FluoroMAT 50 is an advanced immunofluorescence analyzer providing precise IFA results with automation and consistent performance.",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.6",
+            "ratingCount": "485"
+        }
+    },
+    "sprinter-xl": {
+        "name": "Sprinter XL - Fully Automated Immunoassay Analyzer",
+        "image": "https://cpcdiagnostics.in/assets/Sprinter%20XL-DWwCqTzm.webp",
+        "description": "Sprinter XL Fully Automated Immunoassay Analyzer combines high speed, precision, and reliability for advanced immunodiagnostic workflows",
+        "brand": "Euroimmun",
+        "aggregateRating": {
+            "ratingValue": "4.9",
+            "ratingCount": "477"
+        }
+    }
+}
