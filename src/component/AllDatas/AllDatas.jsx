@@ -69,7 +69,7 @@ import DYNACOUNT3DPlus from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynaco
 import DYNACOUNT3DPlusGrey from "../AllDatas/ProductImages/Hematology/3D PLUS/Dynacount 3D Plus.jpg";
 //
 import DYNACOUNT5DElitegrey from "../AllDatas/greyImages/Dynacount 5D Elite.png";
-import DYNACOUNT5DElite from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynacount 5D Elite.png";
+import DYNACOUNT5DElite from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynacount 5D Elite.webp";
 //
 import DYNACOUNT5DPROgrey from "../AllDatas/greyImages/Dynacount 5D PRO.png";
 import DYNACOUNT5DPRO from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynacount 5D PRO.png";

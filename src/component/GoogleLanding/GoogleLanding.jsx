@@ -6,7 +6,6 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
-import testimonial from "../../assets/testimonials.jpg";
 import whychose from "../../assets/image/ourvalue.png";
 import { TiTickOutline } from "react-icons/ti";
 import yhlo from "../../assets/yhlo.png";
