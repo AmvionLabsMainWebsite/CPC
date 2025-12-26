@@ -82,7 +82,7 @@ const GetQuote = () => {
         <div className="flex flex-col justify-start">
             <button
                 onClick={() => setShowForm(true)}
-                className="bg-[#00A786] px-2 py-2 text-[#ffffff] rounded-xl text-sm font-semibold transition-all mt-4 w-[20%]"
+                className="bg-[#00A786] px-2 py-2 text-[#ffffff] rounded-xl text-sm font-semibold transition-all"
             >
                 Get a Quote
             </button>

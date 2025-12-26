@@ -144,9 +144,9 @@ import fluoroMatGrey from "../AllDatas/greyImages/Fluoromat 50.webp";
 import fluoroMat from "../AllDatas/ProductImages/Immunology/fluoroMat/product1.webp";
 //
 import afiasgrey1 from "../AllDatas/greyImages/AFIAS 1.png";
-import afiaswhite1 from "../AllDatas/ProductImages/Immunology/afias/afias1/AFIAS 2.png";
-import afiaswhite2 from "../AllDatas/ProductImages/Immunology/afias/afias1/AFIAS  3.png";
-import afiaswhite3 from "../AllDatas/ProductImages/Immunology/afias/afias1/AFIAS 4.png";
+import afiaswhite1 from "../AllDatas/ProductImages/Immunology/afias/afias1/AFIAS 2.webp";
+import afiaswhite2 from "../AllDatas/ProductImages/Immunology/afias/afias1/AFIAS  3.webp";
+import afiaswhite3 from "../AllDatas/ProductImages/Immunology/afias/afias1/AFIAS 4.webp";
 //
 import afias3grey1 from "../AllDatas/greyImages/AFIAS 3-1.png";
 import afias3white1 from "../AllDatas/ProductImages/Immunology/afias/afias3/AFIAS 3-2.png";

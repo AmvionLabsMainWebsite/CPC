@@ -5,8 +5,8 @@ import PopupForm from './PopupForm';
 import { jddetails } from './JdDetails.jsx';
 import { GrAttachment } from "react-icons/gr";
 import Loader from "../Loader/Loader";
-import bannerimage from '../../assets/banner-image.jpg'
-import couldntfind from '../../assets/couldntfind.png'
+// import bannerimage from '../../assets/banner-image.jpg'
+// import couldntfind from '../../assets/couldntfind.png'
 import { gsap } from 'gsap';
 import Aos from 'aos';
 import 'aos/dist/aos.css';

@@ -320,7 +320,8 @@ function ProductInfo() {
             className="product-info text-black overflow-hidden mt-2 font-poppins
         container"
           >
-            <div className="hidden tablet:flex mb-3 laptop:mt-4 text-base tablet:text-base cursor-pointer  px-5 w-full md:px-5">
+            <div className="flex justify-between items-center laptop:px-0 px-5 mt-2 mb-4">
+             <div className="">
               <span className="">
                 <Link
                   onClick={() => {
@@ -345,6 +346,8 @@ function ProductInfo() {
                 <span>/ {category}/ </span>
               </Link>
               <span className="font-medium"> {product.title}</span>
+              </div>
+             <div className=" flex justify-end"><GetQuote /></div> 
             </div>
             {/* mobile */}
             <div className=" mb-3 text-sm cursor-pointer px-2 w-full sm:hidden mt-4">
@@ -504,7 +507,7 @@ function ProductInfo() {
                       Overview:
                     </p>
                     <div
-                      className={`text-xs tablet:text-sm largeLaptop:text-lg ${showLine ? "line-clamp-2" : "line-clamp-none"
+                      className={`text-xs tablet:text-sm large Laptop:text-lg ${showLine ? "line-clamp-2" : "line-clamp-none"
                         }`}
                     >
                       <h2>{product.description}</h2>
@@ -519,8 +522,7 @@ function ProductInfo() {
                     >
                       {showLine ? "read more" : "read less"}
                     </p>
-
-                    <GetQuote />
+                    <div className="w-40 mt-4"><GetQuote /></div>
 
                   </div>
                 </div>
@@ -672,9 +674,8 @@ function ProductInfo() {
             {relatedProduct.length > 0 ? (
               <div className=" productSection  mt-4 mb-4 tablet:mb-0 max-h-[500px] ">
                 <div className="tablet:flex justify-between items-center mb-4 ">
-                  <p className="text-left text-lg largeLaptop:text-3xl truncate md:text-2xl mb-2 font-semibold">
-                    Related Products
-                  </p>
+                  <p className="text-left text-sm largeLaptop:text-3xl truncate md:text-2xl mb-2 font-semibold">
+                  People also search for </p>
                   <Link
                     to={`/${category}/`}
                     className="no-underline"
