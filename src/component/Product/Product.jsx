@@ -16,6 +16,7 @@ import "./product.css";
 import { faBloggerB } from "@fortawesome/free-brands-svg-icons";
 import Loader from "../Loader/Loader";
 import { SectionCategory } from "../Context/SectionCategory";
+import productAdditionalData from "./productAdditional";
 
 function Product() {
   const { data } = useContext(ProductDataContext);
@@ -28,6 +29,7 @@ function Product() {
   const [load, setLoad] = useState(false);
   const navigate = useNavigate();
   const { category } = useParams();
+  const additionalContent = productAdditionalData[category] || null;
 
 
   const h1Map = {
@@ -238,42 +240,88 @@ function Product() {
                   <div className="grid grid-cols-2 sm:grid-cols-2 laptop:grid-cols-3 gap-4 mb-4">
                     {final?.length > 0 ? (
                       final.map((item) => (
-                        <Link
-                          to={`/${category}/${item.section}/${item.slug}/`}
-                          key={item.slug}
-                          className="no-underline"
-                        >
-                          <div className="bg-white border-b-2 shadow-gray-300 border-green-800 shadow-xl rounded-lg overflow-hidden relative group h-[220px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
+                        <>
+                          <Link
+                            to={`/${category}/${item.section}/${item.slug}/`}
+                            key={item.slug}
+                            className="no-underline"
+                          >
+                            <div className="bg-white border-b-2 shadow-gray-300 border-green-800 shadow-xl rounded-lg overflow-hidden relative group h-[220px] tablet:h-[320px] transition duration-300 ease-in-out transform hover:scale-105 tablet:px-3
                         tablet:py-3 ">
-                            <img
-                              src={item.coverImg}
-                              alt={item.title}
-                              className="w-full h-32 tablet:h-52 object-cover"
-                            />
-                            <div className="px-2 py-2 text-gray-600">
-                              <h2 className="text-xs tablet:mt-2 tablet:mb-2 tablet:text-xs font-medium text-gray-900 text-left">
-                                {item.title}
-                              </h2>
-                              <p className="text-xs text-gray-600 text-left line-clamp-2">
-                                {item.description}
-                              </p>
+                              <img
+                                src={item.coverImg}
+                                alt={item.title}
+                                className="w-full h-32 tablet:h-52 object-cover"
+                              />
+                              <div className="px-2 py-2 text-gray-600">
+                                <h2 className="text-xs tablet:mt-2 tablet:mb-2 tablet:text-xs font-medium text-gray-900 text-left">
+                                  {item.title}
+                                </h2>
+                                <p className="text-xs text-gray-600 text-left line-clamp-2">
+                                  {item.description}
+                                </p>
+                              </div>
+                              <div className="hidden absolute inset-0 bg-green-600/40 justify-center items-center text-white text-xl group-hover:flex">
+                                View Product
+                              </div>
                             </div>
-                            <div className="hidden absolute inset-0 bg-green-600/40 justify-center items-center text-white text-xl group-hover:flex">
-                              View Product
-                            </div>
-                          </div>
-                        </Link>
+                          </Link>
+
+                        </>
                       ))
                     ) : (
                       <div className="">
                         <span className="text-red-600">*</span> Product Not Available
                       </div>
+
                     )}
-                  </div>
+                  </div >
+                  {/* {additionalContent && (
+                    <div className="mt-8 text-left">
+                      {additionalContent.map((section, index) => {
+                        const HeadingTag = section.level;
+
+                        return (
+                          <div key={index} className="mb-6">
+                            <HeadingTag className="font-bold text-gray-800 mb-2">
+                              {section.title}
+                            </HeadingTag>
+
+                            {section.content?.map((para, i) => (
+                              <p key={i} className="text-gray-600 mb-3 text-sm leading-7">
+                                {para}
+                              </p>
+                            ))}
+
+                            {section.list && (
+                              <ul className="list-disc ml-6 text-gray-700">
+                                {section.list.map((item, i) => (
+                                  <li key={i}>{item}</li>
+                                ))}
+                              </ul>
+                            )}
+                            {section.cta && (
+                              <a
+                                href={section.cta.url}
+                                className="text-green-700 font-semibold underline"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {section.cta.text}
+                              </a>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )} */}
+
 
                 </div>
               </div>
+
             </section>
+
 
             {/* ---------- CTA CARDS ---------- */}
             <div className="grid tablet:h-[100px] h-fit grid-cols-1 sm:grid-cols-2 laptop:grid-cols-3 gap-2 tablet:px-5 py-5 px-2">
