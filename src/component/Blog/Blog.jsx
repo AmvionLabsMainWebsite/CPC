@@ -20,6 +20,8 @@ import blog15 from "../../assets/image/blog-15.jpg";
 import blog16 from "../../assets/image/blog-16.jpg";
 import blog17 from "../../assets/image/blog-17.webp";
 import blog18 from "../../assets/image/blog-18.png";
+import blog19 from "../../assets/image/blog-19.png";
+
 
 import Footer from "../../homepages/Footer/Footer";
 import Loader from "../Loader/Loader";
@@ -242,6 +244,17 @@ const blogs = [
     alt: "Allergies",
     content:
       "Scleroderma – The disease: Systemic sclerosis (SSc, scleroderma) is a rare and complex autoimmune..........",
+  },
+   {
+    id: 19,
+    title: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison ",
+    admin: "by admin",
+    date: "December 26, 2025",
+    image: blog19,
+    slug: 'ichroma-2-vs-ichroma-3-poct-analyzer-comparison',
+    alt: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison",
+    content:
+      "Point-of-care testing (POCT) devices have revolutionized the healthcare industry..........",
   },
 ];
 

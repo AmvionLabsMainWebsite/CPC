@@ -26,6 +26,7 @@ import blog15 from "../../assets/image/blog-15.jpg";
 import blog16 from "../../assets/image/blog-16.jpg";
 import blog17 from "../../assets/image/blog-17.webp";
 import blog18 from "../../assets/image/blog-18.png";
+import blog19 from "../../assets/image/blog-19.png";
 import Footer from "../../homepages/Footer/Footer";
 import blogSchemas from "../Blog/blogSchemas.json"
 
@@ -1020,6 +1021,145 @@ const blogs = [
       },
     ],
   },
+
+  {id: 19,
+    title: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison ",
+    admin: "by admin",
+    date: "December 26, 2025",
+    image: blog19,
+    slug: 'ichroma-2-vs-ichroma-3-poct-analyzer-comparison',
+    content: "Point-of-care testing (POCT) devices have revolutionized the healthcare industry..........",
+    h1map: "Hematology Analyzer Machine:Its Working principle, Uses and Price",
+    sections: [
+      {
+        startcontent:
+          "Ever wondered what happens to your blood sample after a checkup? A key player behind the scenes is the hematology analyzer. This medical marvel automates the process of counting and identifying your blood cells, giving doctors a vital glimpse into your health. From routine blood work to complex diagnoses, hematology analyzers play a crucial role in keeping you healthy.",
+      },
+      {
+        id: "ICA",
+        title: "Ichroma 2 vs Ichroma 3:",
+        content:
+          "Point-of-care testing (POCT) devices have revolutionized the healthcare industry by providing rapid and accurate diagnostic results at the bedside.",
+        content1:
+          " Among the leading POCT analyzers, Ichroma 2 and Ichroma 3 have gained significant attention.",
+        content2:
+          "In this blog, we compare these two devices to help you understand which model stands out as the best POCT analyzer for your facility.",
+      },
+      {
+        id: "bip",
+        title: "Boditech Ichroma 2 POCT Analyzer",
+        content:
+          "The Ichroma 2 POCT analyzer is a well-established device known for its reliability and ease of use. It operates on the fluorescence immunoassay principle, enabling rapid detection of a wide range of biomarkers. Key features include:",
+        content1:
+         "Compact design—ideal for small clinics and laboratories.",
+        content2:
+         "Rapid results—Delivers diagnostic outputs within minutes.",
+        content3:
+         "User-friendly interface—requires minimal training.",
+        content4:
+         "Wide range of tests—supports multiple immunoassay parameters.",
+    
+        },
+      {
+        id: "bip",
+        title: "Boditech Ichroma 3 POCT Analyzer",
+        content:
+          "The Ichroma 3 is the latest upgrade in the Ichroma series, offering enhanced operational capabilities while retaining the core principles of Ichroma 2. This advanced POCT analyzer provides:",
+        content1:
+         "Enhanced accuracy—Better detection limits and precision.",
+        content2:
+         "Larger touch screen—Improved navigation and user experience.",
+        content3:
+          "Increased throughput—Can analyze more samples simultaneously.",
+        content4:
+          "Advanced connectivity—Supports integration with hospital information systems for seamless data management.",
+      
+      },
+      {
+        id: "IIC",
+        title: "Ichroma 2 and Ichroma 3 Comparison",
+        topic1: "1.Principles and Technology",
+        content9: "Both Ichroma 2 and Ichroma 3 operate on the fluorescence immunoassay principle, ensuring quick and accurate biomarker detection. However, Ichroma 3 takes a step ahead with improved detection sensitivity, making it ideal for facilities needing high-precision POCT analyzers.",
+       
+        topic2: "2. Ease of Use",
+        content10:
+          "Ichroma 2 is widely appreciated for its simple, user-friendly interface. Ichroma 3 builds on this strength with a larger touch screen and smoother navigation, enhancing the operator experience.",
+       
+          topic3: "3. Throughput and Efficiency",
+       content11: "Ichroma 2 suits small to medium setups with moderate test volumes. In contrast, Ichroma 3 is designed for higher throughput, making it suitable for busy healthcare facilities that process multiple tests per hour.",
+        
+       topic4: "4. Data Management and Connectivity",
+      content12:
+          "One of the biggest upgrades in Ichroma 3 is its advanced connectivity options. It supports HIS/LIS integration, enabling better data flow and centralized monitoring — a critical requirement for modern POCT analyzer systems. Here there is no point for ichroma 2",
+        
+          topic5: "5. Range of Tests",
+          content13:
+          "Both analyzers support an extensive test menu. Ichroma 3’s improved technology makes it more efficient for handling sensitive or critical biomarker testing.",
+
+      },
+
+          {
+  id: "ichroma-ii-specifications",
+  title: "iCHROMA II – Specifications",
+
+  productName: "ichroma II",
+
+  parameters:
+    "RF IgM, Anti CCP Plus, IgE, PSA, AFP, CEA, CA19-9 (Upcoming), IFOb neo, Troponin-I Neo, Troponin-I Plus, CK-MB, D-DIMER, Myoglobin Neo, Hs-CRP ST2, NT Pro BNP Cardiac triple, Troponin-T, HbA1c, HbA1c Neo, Microalbumin, Cystatin-C, Calprotectin, TSH, TSH Plus, Free T4, T4, T3, FSH, Progesterone, β-HCG, LH, Prolactin, Testosterone, CORTISOL, AMH, CRP, Procalcitonin – PCT, PCT Plus, ASO, Dengue NS1, Dengue IgG/IgM, H. pylori, Covid-19 Ab, Covid-19 Ag, IL-6, IGRA-TB (Upcoming), FERRITIN, Vitamin D, Vitamin D Neo",
+
+  display: "7-inch touch color LCD",
+
+  motor: "Stepper Linear Actuators (5 V, 0.34 A)",
+
+  communicationPorts: "USB 4 ports, LAN port, USB OTG port",
+
+  operationTemperatureHumidity: "Temperature: 15–35 °CHumidity: 10–70 percent (Non-condensing)",
+  storageTemperatureHumidity: "Temperature: –20 to 50 °C",
+  Output:"LCD, built-in printer",
+  SavingTestResults:"Patient test: 1,000 resultsSystem check test: 500 resultsControl materials test: 1,000 results",
+},
+
+ {
+  id: "ichroma-ii-specifications",
+  title: "iCHROMA III – Specifications",
+
+  productName: "ichroma III",
+
+  parameters:
+    "RF IgM, Anti CCP Plus, IgE, PSA, AFP, CEA, CA19-9 (Upcoming), IFOB neo, Troponin-I Neo, Troponin-I Plus, CK-MB, D-DIMER, Myoglobin Neo, Hs-CRP ST2, NT Pro BNP Cardiac triple, Troponin-T, HbA1c, HbA1c Neo, Microalbumin, Cystatin-C, Calprotectin, TSH, TSH Plus, Free T4, T4, T3, FSH, Progesterone, β-HCG, LH, Prolactin, Testosterone, CORTISOL, AMH, CRP, Procalcitonin – PCT, PCT Plus, ASO, Dengue NS1, Dengue IgG/IgM, H. pylori, Covid-19 Ab, Covid-19 Ag, IL-6, IGRA-TB (Upcoming), FERRITIN, Vitamin D, Vitamin D Neo",
+
+  display: "7-inch touch color LCD",
+
+  motor: "Stepper Linear Actuators (5 V, 0.34 A)",
+
+  communicationPorts: "USB 4 ports, LAN port, USB OTG port, RS232C, SD Card",
+
+  operationTemperatureHumidity: "Temperature: 15–35 °CHumidity: 10–70 percent (Non-condensing)",
+  storageTemperatureHumidity: "Temperature: –20 to 50 °C",
+  Output:"LCD, built-in printer",
+  SavingTestResults:"6,000 tests total:Patient test: 5,000 resultsSystem QC test: 1,000 resultss",
+},
+
+{
+  id: "ichroma-2-vs-ichroma-3-conclusion",
+  title: "Conclusion: Ichroma 2 vs Ichroma 3—Which One Should You Choose?",
+
+  content:
+    "Choosing between Ichroma 2 and Ichroma 3 depends on your facility’s size, daily test volume, and workflow needs.",
+
+  content1:
+    "1. Choose Ichroma 2 if you run a small clinic and need a compact, cost-effective POCT analyzer that delivers reliable results without complex setup.",
+
+  content2:
+    "2. Choose Ichroma 3 if you are a medium or large healthcare facility with high throughput, needing advanced connectivity, greater data storage, and faster testing capabilities.",
+
+  final:
+    "Both analyzers are dependable and accurate; the best choice depends on your facility’s current demand and future growth plans. If you need help selecting the right POCT solution, feel free to explore more resources on our website."
+}
+
+    ],
+  },
+  
 ];
 
 function SingleBlog() {
@@ -1147,6 +1287,7 @@ function SingleBlog() {
               <h2 className="text-2xl text-maincol font-semibold mt-10">
                 {section.title}
               </h2>
+              
               <p className="mt-4 text-fontextra">{section.content}</p>
               <p className="mt-4 text-fontextra">{section.content1}</p>
               <p className="mt-4 text-fontextra">{section.content2}</p>
@@ -1160,13 +1301,110 @@ function SingleBlog() {
                 {section.topic1}
               </h2>
               <p className="mt-4 text-fontextra">{section.content9}</p>
-              <p className="mt-4 text-fontextra">{section.content10}</p>
               <h2 className="mt-4 text-xl text-black text-left">
                 {section.topic2}
               </h2>
-              <p className="mt-4 text-fontextra">{section.content11}</p>
+              <p className="mt-4 text-fontextra">{section.content10}</p>
+              <h2 className="mt-4 text-xl text-black text-left">
+                {section.topic3}
+              </h2>
+              <p className="mt-4 text-fontextra"> {section.content11}</p>
+              <h2 className="mt-4 text-xl text-black text-left">
+              {section.topic4}
+               </h2>
               <p className="mt-4 text-fontextra"> {section.content12}</p>
+              <h2 className="mt-4 text-xl text-black text-left">
+                {section.topic5}
+              </h2>
+              <p className="mt-4 text-fontextra"> {section.content13}</p>
               <p className="mt-4 text-fontextra"> {section.final}</p>
+
+
+              <div key={section.id} id={section.id} className="mt-10">
+               {section.id === "ichroma-ii-specifications" && (
+  <div className="mt-10">
+  
+
+    <div className="overflow-x-auto">
+      <table className="w-full border border-gray-300 text-left">
+        <thead>
+          <tr className="bg-gray-100">
+            <th className="border px-4 py-2 font-semibold">Item</th>
+            <th className="border px-4 py-2 font-semibold">Specification</th>
+          </tr>
+        </thead>
+
+        <tbody className="text-fontextra">
+          <tr>
+            <td className="border px-4 py-2 font-medium">Product Name</td>
+            <td className="border px-4 py-2">{section.productName}</td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2 font-medium">Parameter</td>
+            <td className="border px-4 py-2 leading-relaxed">
+              {section.parameters}
+            </td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2 font-medium">Display</td>
+            <td className="border px-4 py-2">{section.display}</td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2 font-medium">Motor</td>
+            <td className="border px-4 py-2">{section.motor}</td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2 font-medium">
+              Communication Ports
+            </td>
+            <td className="border px-4 py-2">
+              {section.communicationPorts}
+            </td>
+          </tr>
+           <tr>
+            <td className="border px-4 py-2 font-medium">
+             Operation Temperature / Humidity
+            </td>
+            <td className="border px-4 py-2">
+              {section.operationTemperatureHumidity}
+            </td>
+          </tr>
+           <tr>
+            <td className="border px-4 py-2 font-medium">
+             Storage Temperature / Humidity
+            </td>
+            <td className="border px-4 py-2">
+              {section.storageTemperatureHumidity}
+            </td>
+          </tr>
+           <tr>
+            <td className="border px-4 py-2 font-medium">
+             Output
+            </td>
+            <td className="border px-4 py-2">
+              {section.Output}
+            </td>
+          </tr>
+           <tr>
+            <td className="border px-4 py-2 font-medium">
+            Saving Test Results </td>
+            <td className="border px-4 py-2">
+              {section.SavingTestResults}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+)}
+
+
+</div>
+
             </div>
           ))}
         </div>
