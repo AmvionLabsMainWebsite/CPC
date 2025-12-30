@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./contactUs.css";
-import video from "../../Video/contact.mp4";
+import video from "../../Video/contact.webm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRocketchat } from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
