@@ -30,7 +30,7 @@ function Product() {
   const navigate = useNavigate();
   const { category } = useParams();
   const additionalContent = productAdditionalData[category] || null;
-
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const h1Map = {
     "biochemistry-analyzer": "Advanced Biochemistry Analyzer in India",
@@ -276,47 +276,88 @@ function Product() {
 
                     )}
                   </div >
-                  {/* {additionalContent && (
-                    <div className="mt-8 text-left">
-                      {additionalContent.map((section, index) => {
-                        const HeadingTag = section.level;
 
-                        return (
-                          <div key={index} className="mb-6">
-                            <HeadingTag className="font-bold text-gray-800 mb-2">
-                              {section.title}
-                            </HeadingTag>
+                  <div>
+                    {additionalContent && additionalContent.length > 0 && (
+                      <>
+                        <div className="mt-8 text-left">
+                          <div
+                            className="transition-all duration-500 ease-in-out overflow-hidden"
+                            style={{
+                              height: isExpanded ? 'auto' : '20vh'
+                            }}
+                          >
+                            {additionalContent.map((section, index) => {
+                              const HeadingTag = section.level || 'h3'; // fallback to h3 if level not provided
 
-                            {section.content?.map((para, i) => (
-                              <p key={i} className="text-gray-600 mb-3 text-sm leading-7">
-                                {para}
-                              </p>
-                            ))}
+                              return (
+                                <div key={index} className="mb-6">
+                                  {/* Heading */}
+                                  <HeadingTag className="font-bold text-gray-800 mb-2 text-xl">
+                                    {section.title}
+                                  </HeadingTag>
 
-                            {section.list && (
-                              <ul className="list-disc ml-6 text-gray-700">
-                                {section.list.map((item, i) => (
-                                  <li key={i}>{item}</li>
-                                ))}
-                              </ul>
-                            )}
-                            {section.cta && (
-                              <a
-                                href={section.cta.url}
-                                className="text-green-700 font-semibold underline"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {section.cta.text}
-                              </a>
-                            )}
+                                  {/* Content - Supports HTML via dangerouslySetInnerHTML */}
+                                  {Array.isArray(section.content) ? (
+                                    section.content.map((para, i) => (
+                                      <p
+                                        key={i}
+                                        className="text-gray-600 mb-3 text-sm leading-7"
+                                        dangerouslySetInnerHTML={{ __html: para }}
+                                      />
+                                    ))
+                                  ) : (
+                                    section.content && (
+                                      <p
+                                        className="text-gray-600 mb-3 text-sm leading-7"
+                                        dangerouslySetInnerHTML={{ __html: section.content }}
+                                      />
+                                    )
+                                  )}
+
+                                  {/* Bullet List */}
+                                  {section.list && (
+                                    <ul className="list-disc ml-6 text-gray-700 text-sm leading-8 mb-4">
+                                      {section.list.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                      ))}
+                                    </ul>
+                                  )}
+
+                                  {/* CTA Link */}
+                                  {section.cta && (
+                                    <div className="mt-4">
+                                      <p className="text-lg text-maincol font-bold mb-2">
+                                        {section.cta.text}
+                                      </p>
+                                      <a
+                                        href={section.cta.url}
+                                        className="text-maincol font-semibold underline text-sm ml-4"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        {section.cta.url}
+                                      </a>
+                                    </div>
+                                  )}
+                                </div>
+                              );
+                            })}
                           </div>
-                        );
-                      })}
-                    </div>
-                  )} */}
 
-
+                          {/* View More / View Less Button */}
+                          <div className="mt-4 flex justify-end">
+                            <button
+                              onClick={() => setIsExpanded(!isExpanded)}
+                              className="text-maincol font-semibold underline text-lg hover:text-maincol-dark transition"
+                            >
+                              {isExpanded ? 'View Less' : 'View More'}
+                            </button>
+                          </div>
+                        </div>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
 
