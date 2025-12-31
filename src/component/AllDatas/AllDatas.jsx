@@ -86,7 +86,7 @@ import DYNACOUNT5D1 from "../AllDatas/ProductImages/Hematology/DYNACOUNT5D/Dynac
 
 //
 import SedrateProGrey from "../AllDatas/greyImages/Sedrate Pro.jpg";
-import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.png";
+import SedratePro1 from "../AllDatas/ProductImages/Hematology/SedratePro/product1.webp";
 import SedratePro2 from "../AllDatas/ProductImages/Hematology/SedratePro/product2.webp";
 import SedratePro3 from "../AllDatas/ProductImages/Hematology/SedratePro/product3.webp";
 // Immunology;
