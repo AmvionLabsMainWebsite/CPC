@@ -30,6 +30,7 @@ import blog19 from "../../assets/image/blog-19.png";
 import Footer from "../../homepages/Footer/Footer";
 import blogSchemas from "../Blog/blogSchemas.json"
 
+
 const blogs = [
   //this is first blog
   {
@@ -1023,28 +1024,21 @@ const blogs = [
   },
 
   {id: 19,
-    title: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison ",
+    title: " Ichroma 2 vs Ichroma 3: which is the best POCT Immunoassay Analyzer?",
     admin: "by admin",
     date: "December 26, 2025",
     image: blog19,
     slug: 'ichroma-2-vs-ichroma-3-poct-analyzer-comparison',
+    metaTitle:"Ichroma 2 vs Ichroma 3 | POCT Analyzer Comparison Guide",
+    metaDescription:"Compare Ichroma 2 vs Ichroma 3 POCT analyzers. Explore features, differences, performance, and find out which model is right for your lab.",
     content: "Point-of-care testing (POCT) devices have revolutionized the healthcare industry..........",
-    h1map: "Hematology Analyzer Machine:Its Working principle, Uses and Price",
+    h1map: "Ichroma 2 vs Ichroma 3: which is the best POCT Immunoassay Analyzer?",
     sections: [
       {
-        startcontent:
-          "Ever wondered what happens to your blood sample after a checkup? A key player behind the scenes is the hematology analyzer. This medical marvel automates the process of counting and identifying your blood cells, giving doctors a vital glimpse into your health. From routine blood work to complex diagnoses, hematology analyzers play a crucial role in keeping you healthy.",
-      },
-      {
-        id: "ICA",
-        title: "Ichroma 2 vs Ichroma 3:",
         content:
-          "Point-of-care testing (POCT) devices have revolutionized the healthcare industry by providing rapid and accurate diagnostic results at the bedside.",
-        content1:
-          " Among the leading POCT analyzers, Ichroma 2 and Ichroma 3 have gained significant attention.",
-        content2:
-          "In this blog, we compare these two devices to help you understand which model stands out as the best POCT analyzer for your facility.",
+          "Point-of-care testing (POCT) devices have revolutionized the healthcare industry by providing rapid and accurate diagnostic results at the bedside. Among the leading POCT analyzers, Ichroma 2 and Ichroma 3 have gained significant attention. In this blog, we compare these two devices to help you understand which model stands out as the best POCT analyzer for your facility",
       },
+     
       {
         id: "bip",
         title: "Boditech Ichroma 2 POCT Analyzer",

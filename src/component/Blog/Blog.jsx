@@ -30,6 +30,17 @@ const blogs = [
   //first blog
   {
     id: 1,
+    title: "Ichroma 2 vs Ichroma 3 | POCT Analyzer Comparison Guide",
+    admin: "by admin",
+    date: "December 26, 2025",
+    image: blog19,
+    slug: 'ichroma-2-vs-ichroma-3-poct-analyzer-comparison',
+    alt: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison",
+    content:
+      "Point-of-care testing (POCT) devices have revolutionized the healthcare industry..........",
+  },
+  {
+    id: 2,
     title: "Hematology Analyzer Machine:Its Working principle, Uses and Price",
     admin: "by admin",
     date: "May 31, 2024",
@@ -41,7 +52,7 @@ const blogs = [
   },
   //second blog
   {
-    id: 2,
+    id: 3,
     title: "Difference Between 3 Part and 5 Part Hematology Analyzer",
     admin: "by admin",
     date: "May 25, 2024",
@@ -53,7 +64,7 @@ const blogs = [
   },
   //third blog
   {
-    id: 3,
+    id: 4,
     title: "Biochemistry Analyzer: It's working principle, uses and price",
     admin: "by admin",
     date: "Feb 27, 2024",
@@ -65,7 +76,7 @@ const blogs = [
   },
   //fourth blog
   {
-    id: 4,
+    id: 5,
     title: "What a Hemo-globin is and Common Types of Blood Disorder?",
     admin: "by admin",
     date: " Jul 6, 2023",
@@ -77,7 +88,7 @@ const blogs = [
   },
   //fifth blog
   {
-    id: 5,
+    id: 6,
     title: "An Introduction to a Fully Automated Immunoassay Analyzer",
     admin: "by admin",
     date: "Jul 6, 2023",
@@ -89,7 +100,7 @@ const blogs = [
   },
   //sixth blog
   {
-    id: 6,
+    id: 7,
     title: "How to Ensure  Effective Result in Haematology Analyzers",
     admin: "by admin",
     date: "Jul 6, 2023",
@@ -101,7 +112,7 @@ const blogs = [
   },
   //seventh blog
   {
-    id: 7,
+    id: 8,
     title:
       "Basics of 3 part Hematology Analyzer – Every Laboratarians should know",
     admin: "by Mohana Priya ",
@@ -114,7 +125,7 @@ const blogs = [
   },
   //eighth blog
   {
-    id: 8,
+    id: 9,
     title: "Microalbuminuria",
     admin: "by Priyadharshini C ",
     date: "Feb 2, 2023",
@@ -126,7 +137,7 @@ const blogs = [
   },
   //ninth blog
   {
-    id: 9,
+    id: 10,
     title: "Allergies",
     admin: "by Dr. Sabitha Palazhy",
     date: "Dec 8, 2022",
@@ -139,7 +150,7 @@ const blogs = [
 
   //tenth blog
   {
-    id: 10,
+    id: 11,
     title: "NOVEL TREATMENT MODALITIES FOR LETHAL DISEASES ​",
     admin: "by Dr. Sabitha Palazhy",
     date: "Dec 6, 2022",
@@ -151,7 +162,7 @@ const blogs = [
   },
   //eleventh blog
   {
-    id: 11,
+    id: 12,
     title: "LAB MEAN​",
     admin: "by Dr. Sabitha Palazhy",
     date: "Nov 29, 2022",
@@ -163,7 +174,7 @@ const blogs = [
   },
   //Twelveth blog
   {
-    id: 12,
+    id: 13,
     title: "Introduction to Rheumatoid Factor",
     admin: "by Priyadharshini C",
     date: "Oct 12, 2022",
@@ -175,7 +186,7 @@ const blogs = [
   },
   //thirteenth blog
   {
-    id: 13,
+    id: 14,
     title: "What makes up a complete lipid profile?",
     admin: "by CPC Expert",
     date: " Sep 12, 2022",
@@ -187,7 +198,7 @@ const blogs = [
   },
   //Fourteenth blog
   {
-    id: 14,
+    id: 15,
     title: "HEART ATTACK AND CARDIAC BIOMARKERS",
     admin: "by Dr. Sabitha Palazhy",
     date: "Aug 31, 2022",
@@ -199,7 +210,7 @@ const blogs = [
   },
   //Fifteenth blog
   {
-    id: 15,
+    id: 16,
     title: "Blood Disorders-Explained",
     admin: "by Dr. Sabitha Palazhy ",
     date: "Aug 6, 2022",
@@ -211,7 +222,7 @@ const blogs = [
   },
   //sixteenth blog
   {
-    id: 16,
+    id: 17,
     title: "Risk of Hyperlipidemia in Atherosclerosis?",
     admin: "by Priyadharshini C",
     date: "Jun 20, 2022",
@@ -223,7 +234,7 @@ const blogs = [
   },
   //seventeenth blog
   {
-    id: 17,
+    id: 18,
     title: "All about Anti- Phospholipid Syndrome",
     admin: "by admin ",
     date: "May 9, 2022",
@@ -235,7 +246,7 @@ const blogs = [
   },
   //Eighteenth blog
   {
-    id: 18,
+    id: 19,
     title: "Systemic Sclerosis",
     admin: "by admin",
     date: "May 9, 2022",
@@ -245,17 +256,7 @@ const blogs = [
     content:
       "Scleroderma – The disease: Systemic sclerosis (SSc, scleroderma) is a rare and complex autoimmune..........",
   },
-   {
-    id: 19,
-    title: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison ",
-    admin: "by admin",
-    date: "December 26, 2025",
-    image: blog19,
-    slug: 'ichroma-2-vs-ichroma-3-poct-analyzer-comparison',
-    alt: "Ichroma 2 vs Ichroma 3: What to Choose and Why? — A Complete POCT Analyzer Comparison",
-    content:
-      "Point-of-care testing (POCT) devices have revolutionized the healthcare industry..........",
-  },
+   
 ];
 
 function Blog() {
