@@ -1,0 +1,1 @@
+import{j as e}from"./index-8n8Yrvei.js";function r(){return e.jsx("div",{className:"justify-center flex-col -mt-20 flex h-screen items-center",children:e.jsx("span",{class:"loader"})})}export{r as L};

@@ -1,0 +1,54 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# ✅ Force non-www version
+RewriteCond %{HTTP_HOST} ^www\.cpcdiagnostics\.in [NC]
+RewriteRule ^(.*)$ https://cpcdiagnostics.in/$1 [L,R=301]
+
+# ✅ React SPA fallback (important for React Router)
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+</IfModule>
+
+# ✅ 301 Redirects
+Redirect 301 /our-milestones/ https://cpcdiagnostics.in/our-success
+Redirect 301 /awards-accolades/ https://cpcdiagnostics.in/our-success
+Redirect 301 /blogs/ https://cpcdiagnostics.in/blog
+Redirect 301 /Hematology-Analyzer-Machine-Its-Working-principle-Uses-and-Price/ https://cpcdiagnostics.in/blog/hematology-analyzer-working-principle-uses-price
+Redirect 301 /Difference-Between-3-Part-and-5-Part-hematology-analyzer/ https://cpcdiagnostics.in/blog/difference-between-3-part-and-5-part-hematology-analyzer
+Redirect 301 /biochemistry-analyzer-working-principle-uses-price/ https://cpcdiagnostics.in/blog/biochemistry-analyzer-working-principle-uses-price
+Redirect 301 /what-a-hemo-globin-is-and-common-types-of-blood-disorder/ https://cpcdiagnostics.in/blog/what-a-hemo-globin-is-and-common-types-of-blood-disorder
+Redirect 301 /an-introduction-to-a-fully-automated-immunoassay-analyzer/ https://cpcdiagnostics.in/blog/an-introduction-to-a-fully-automated-immunoassay-analyzer
+Redirect 301 /how-to-ensure-effective-result-in-haematology-analyzers/ https://cpcdiagnostics.in/blog/how-to-ensure-effective-result-in-haematology-analyzers
+Redirect 301 /basics-of-3-part-hematology-analyzer/ https://cpcdiagnostics.in/blog/basics-of-3-part-hematology-analyzer
+Redirect 301 /microalbuminuria/ https://cpcdiagnostics.in/blog/microalbuminuria-test/
+Redirect 301 /allergies/ https://cpcdiagnostics.in/blog/allergies-causes-symptoms/
+Redirect 301 /novel-treatment-modalities-for-lethal-diseases/ https://cpcdiagnostics.in/blog/novel-treatment-for-lethal-diseases/
+Redirect 301 /lab-mean/ https://cpcdiagnostics.in/blog/lab-mean-explained/
+Redirect 301 /introduction-to-rheumatoid-factor/ https://cpcdiagnostics.in/blog/rheumatoid-factor-introduction/
+Redirect 301 /lipid-profile/ https://cpcdiagnostics.in/blog/lipid-profile-test/
+Redirect 301 /heart-attack-and-cardiac-biomarkers/ https://cpcdiagnostics.in/blog/cardiac-biomarkers-heart-attack/
+Redirect 301 /blood-disorders-explained/ https://cpcdiagnostics.in/blog/blood-disorders-overview/
+Redirect 301 /hyperlipidemia-in-atherosclerosis/ https://cpcdiagnostics.in/blog/hyperlipidemia-atherosclerosis/
+Redirect 301 /all-about-anti-phospholipid-syndrome/ https://cpcdiagnostics.in/blog/anti-phospholipid-syndrome/
+Redirect 301 /systemic-sclerosis/ https://cpcdiagnostics.in/blog/systemic-sclerosis-disease/
+
+Redirect 301 /product/biochemistry-analyzer-turbochem-magna/ https://cpcdiagnostics.in/biochemistry-analyzer/fully-automatic/turbochem-magna
+Redirect 301 /product/fully-automatic-biochemistry-turbochem-prime/ https://cpcdiagnostics.in/biochemistry-analyzer/fully-automatic/turbochem-prime
+Redirect 301 /product/ichem-prime-system-pack-reagents-for-turbochem-prime/ https://cpcdiagnostics.in/biochemistry-analyzer/reagents/i-chem-prime
+Redirect 301 /product/ichem-magma/ https://cpcdiagnostics.in/biochemistry-analyzer/reagents/i-chem-magna
+Redirect 301 /product/biochemistry-analyzer-turbostat-plus/ https://cpcdiagnostics.in/biochemistry-analyzer/semi-automatic/turbostat-plus
+Redirect 301 /product/identi-immuno-reagents/ https://cpcdiagnostics.in/biochemistry-analyzer/reagents/identi-immuno-turbidimetry
+Redirect 301 /fully-automatic-biochemistry-analyzer/ https://cpcdiagnostics.in/biochemistry-analyzer/fully-automatic
+Redirect 301 /semi-automatic-biochemistry-analyzer/ https://cpcdiagnostics.in/biochemistry-analyzer/semi-automatic
+Redirect 301 /biochemistry-reagents/ https://cpcdiagnostics.in/biochemistry-analyzer/reagents
+
+Redirect 301 /haematology/ https://cpcdiagnostics.in/hematology-analyzer
+Redirect 301 /product/3d-plus-haematology-analyzer/ https://cpcdiagnostics.in/hematology-analyzer/3-part/dynacount-3d-plus
+Redirect 301 /product/dynacount-5d-haematology-analyzer/ https://cpcdiagnostics.in/hematology-analyzer
+Redirect 301 /3-part-haematology-analyzer/ https://cpcdiagnostics.in/hematology-analyzer/3-part
+Redirect 301 /5-part-haematology-analyzer/ https://cpcdiagnostics.in/hematology-analyzer/5-part
+Redirect 301 /esr-analyser/ https://cpcdiagnostics.in/hematology-analyzer/esr-analyzer
